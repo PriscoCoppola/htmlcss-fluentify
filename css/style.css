@@ -107,6 +107,7 @@ h6 {
 }
 
 /* MAIN */
+/* Banner */
 .banner {
     height: 480px;
     background-color: #0d325b;
@@ -137,3 +138,21 @@ h6 {
 .banner .fix {
     padding: 20px;
 }
+
+/* Text */
+.background {
+    display: block;
+    height: 100px;
+    background-color: #d3d3d3;
+    text-align:center;
+    padding: 20px;
+}
+
+.background h1 {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+
+
+
