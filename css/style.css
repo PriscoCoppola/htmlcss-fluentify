@@ -148,10 +148,48 @@ h6 {
     padding: 20px;
 }
 
-.background h1 {
+.background h2 {
     color: #000;
     margin-bottom: 10px;
 }
+
+/* Tab */
+.container .tab {
+    width: calc(100%/3);
+    height: 380px;
+}
+
+.tab.left .image {
+    width: 100px;
+    margin: 20px auto;
+}
+
+.tab.center .image {
+    width: 170px;
+    margin: 20px auto;
+}
+
+.tab.right .image {
+    width: 120px;
+    margin: 20px auto;
+}
+
+.tab h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #93c737;
+    margin: 20px;
+}
+
+.tab hr {
+    margin: 0 170px;
+}
+
+.tab p {
+    margin: 20px;
+    text-align: center;
+}
+
 
 
 
