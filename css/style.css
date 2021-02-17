@@ -190,6 +190,36 @@ h6 {
     text-align: center;
 }
 
+section .gray {
+    border: 1px solid #e5e5e5;
+    margin: 0 20px;
+}
+
+/* Progress */
+.image-progress img {
+    width: 450px;
+    padding: 30px;
+}
+
+.text-progress h2 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.text-progress p {
+    margin-bottom: 10px;
+}
+
+.text-progress a {
+    font-size: 12px;
+}
+.text-progress {
+    padding: 30px;
+}
+
+
+
 
 
 
