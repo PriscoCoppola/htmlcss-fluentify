@@ -8,3 +8,82 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+/* UTILITIES */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    min-width: 100px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.btn-green {
+    background-color: #7cbc32;
+    border: 1px solid transparent;
+}
+
+/* HEADER */
+.main-header {
+    height: 80px;
+    background-color: #0d325b;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-header .container {
+    line-height: 80px;
+}
+
+.main-header .logo {
+    width: 15%;
+}
+
+.main-header img {
+    vertical-align: middle;
+}
+
+.main-header .nav-center {
+    width: 45%;
+}
+
+.nav-center li,
+.nav-right li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav-center li:last-child {
+    margin-right: 0;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.main-header .nav-right {
+    width: 40%;
+    text-align: right;
+}
