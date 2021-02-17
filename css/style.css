@@ -7,6 +7,16 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #818181;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
 }
 
 /* UTILITIES */
@@ -25,11 +35,18 @@ body {
     float: left;
 }
 
+.w-50 {
+    width: 50%;
+}
+
 /* Button */
 .btn {
     display: inline-block;
     line-height: 1;
     text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
     min-width: 100px;
     padding: 10px;
     border: 1px solid #fff;
@@ -73,7 +90,8 @@ body {
     margin-right: 20px;
 }
 
-.nav-center li:last-child {
+.nav-center li:last-child,
+.nav-right li:last-child {
     margin-right: 0;
 }
 
@@ -86,4 +104,36 @@ body {
 .main-header .nav-right {
     width: 40%;
     text-align: right;
+}
+
+/* MAIN */
+.banner {
+    height: 480px;
+    background-color: #0d325b;
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 130% 120%;
+}
+
+.banner .container {
+    height: 100%;
+    position: relative;
+}
+
+.banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.banner .text {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner .fix {
+    padding: 20px;
 }
