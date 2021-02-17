@@ -250,6 +250,18 @@ footer .main-footer {
     margin-left: 20px;
 }
 
+/* Help */
+.help {
+    position: relative;
+}
+
+.help .btn.btn-green {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 0;
+}
+
 
 
 
