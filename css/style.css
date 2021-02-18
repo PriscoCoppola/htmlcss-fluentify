@@ -364,6 +364,79 @@ footer .main-footer {
     line-height: 36px;
 }
 
+/* Struttura */
+.struttura h2 {
+    text-align: center;
+    color: #000;
+    margin: 50px 0;
+}
+
+.container .tab1 {
+    width: calc(100%/3);
+    height: 380px;
+}
+
+.struttura .tab1 {
+    line-height: 26px;
+}
+
+.tab1.left .image {
+    width: 100px;
+    margin: 20px;
+}
+
+.tab1.center .image {
+    width: 92px;
+    margin: 20px;
+}
+
+.tab1.right .image {
+    width: 81px;
+    margin: 20px;
+}
+
+.tab1.left hr {
+    margin: 20px;
+    border: 3px solid #9ec5ec;
+}
+
+.tab1.center hr {
+    margin: 20px;
+    border: 3px solid #f3a740;
+}
+
+.tab1.right hr {
+    margin: 20px;
+    border: 3px solid #82b331;
+}
+
+
+.tab1.left a {
+    margin: 20px;
+    color: #9ec5ec;
+}
+
+.tab1.center a {
+    margin: 20px;
+    color: #f3a740;
+}
+
+.tab1.right a {
+    margin: 20px;
+    color: #82b331;
+}
+
+.tab1 h3 {
+    margin: 20px;
+    color: #000;
+}
+
+.tab1 p {
+    margin: 20px;
+}
+
+/* FAQ */
+
 
 
 
