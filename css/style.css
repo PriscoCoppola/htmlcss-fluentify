@@ -43,6 +43,10 @@ h6 {
     margin-bottom: 20px;
 }
 
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 /* Button */
 .btn {
     display: inline-block;
@@ -230,7 +234,7 @@ section .gray {
     padding: 30px;
 }
 
-/* FOOTER */
+/* FOOTER 1 */
 footer .main-footer {
     line-height: 130px;
     background-color: #d3d3d3;
@@ -436,6 +440,33 @@ footer .main-footer {
 }
 
 /* FAQ */
+.bg-faq {
+    height: 120px;
+    background-color: #0d325b;
+}
+
+.bg-faq .position {
+    height: 100%;
+    position: relative;
+
+}
+
+.bg-faq .contained-faq {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.contained-faq h2 {
+    color: #fff;
+    line-height: 36px;
+}
+
+.contained-faq h2::after {
+    content: 'FAQs';
+    color: #b78636;
+}
 
 
 
