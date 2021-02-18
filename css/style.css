@@ -39,6 +39,10 @@ h6 {
     width: 50%;
 }
 
+.mb {
+    margin-bottom: 20px;
+}
+
 /* Button */
 .btn {
     display: inline-block;
@@ -315,9 +319,24 @@ footer .main-footer {
     margin: 40px 0 80px;
 }
 
-hr .gray.no-margin {
+.gray.no-margin {
     margin: 0;
 }
+
+/* Pc */
+.contained-pc {
+    margin: 80px auto 40px;
+    width: 500px;
+    text-align: center;
+}
+
+.contained-pc h2 {
+    color: #000;
+}
+
+.contained-pc .small {
+    font-size: 12px;
+} 
 
 
 
