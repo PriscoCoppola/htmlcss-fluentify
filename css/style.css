@@ -270,7 +270,54 @@ footer .main-footer {
     border-radius: 5px 5px 0 0;
 }
 
+/* BONUS */
 
+/* SECTION */
+/* English */
+.image-english img {
+    width: 500px;
+    padding: 30px;
+}
+
+.text-english h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #000;
+}
+
+.text-english p {
+    margin-bottom: 20px;
+}
+
+.english-left .btn {
+    text-align: left;
+}
+
+.english-left a {
+    padding: 5px 30px;
+    line-height: 25px;
+    min-width: 100%;
+}
+
+.english-right a {
+    text-decoration: none;
+}
+
+.english-right {
+    text-align: center;
+    line-height: 25px;
+}
+.text-english {
+    padding: 30px;
+}
+
+.english-margin {
+    margin: 40px 0 80px;
+}
+
+hr .gray.no-margin {
+    margin: 0;
+}
 
 
 
