@@ -309,6 +309,7 @@ footer .main-footer {
 
 .english-right a {
     text-decoration: none;
+    color: #9ec5ec;
 }
 
 .english-right {
@@ -338,9 +339,17 @@ footer .main-footer {
     color: #000;
 }
 
+.contained-pc h2 span {
+    color: #9bb14f;
+} 
+
 .contained-pc .small {
     font-size: 12px;
 } 
+
+.contained-pc a {
+    color: #9ec5ec;
+}
 
 /* Azienda */
 .bg-azienda {
@@ -467,6 +476,58 @@ footer .main-footer {
     content: 'FAQs';
     color: #b78636;
 }
+
+/* FOOTER 2 */
+footer .bg-footer {
+    height: 260px;
+    background-color: #18416b;
+} 
+
+.bg-footer .container {
+    height: 100%;
+    position: relative;
+}
+
+.bg-footer .terms {
+    line-height: 26px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg-footer .credit {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.terms h3 {
+    color: #fff;
+}
+
+.terms li {
+    list-style: none;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #818181;
+    font-size: 12px;
+}
+
+.credit h3 {
+    color: #fff;
+}
+
+.credit p {
+    font-size: 12px;
+}
+
+
+
 
 
 
