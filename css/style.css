@@ -113,8 +113,8 @@ h6 {
     text-align: right;
 }
 
-/* MAIN */
-main {
+/* MAIN 1 */
+main.one {
     padding-top: 80px;
 }
 
@@ -276,7 +276,7 @@ footer .main-footer {
 
 /* BONUS */
 
-/* SECTION */
+/* MAIN 2 */
 /* English */
 .image-english img {
     width: 500px;
@@ -338,7 +338,31 @@ footer .main-footer {
     font-size: 12px;
 } 
 
+/* Azienda */
+.bg-azienda {
+    height: 360px;
+    background-color: #0d325b;
+}
 
+.bg-azienda .position {
+    height: 100%;
+    position: relative;
+
+}
+
+.bg-azienda .contained-azienda {
+    width: 28%;
+    line-height: 26px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.contained-azienda h2 {
+    color: #fff;
+    line-height: 36px;
+}
 
 
 
